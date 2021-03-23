@@ -1,0 +1,671 @@
+[app/ui]
+version = 8.0.4
+modtime = 1593517727.709820000
+
+[app/launcher]
+version = 8.0.4
+modtime = 1593517727.714786000
+
+[]
+access = read : [ admin, cdoi_admin, master_integr, master_suivi ], write : [ admin, cdoi_admin ]
+export = system
+version = 8.0.4
+modtime = 1601308532.213058000
+
+[indexes/i_chum_pr]
+version = 8.0.4
+modtime = 1592941535.908985000
+
+[identities/idt_chum_pp]
+access = read : [ admin, cdoi_admin ], write : [ admin, cdoi_admin ]
+export = system
+owner = nobody
+version = 8.0.4
+modtime = 1600191579.963952000
+
+[identities/idt_chumtest_pp]
+access = read : [ admin, cdoi_admin ], write : [ admin, cdoi_admin ]
+export = system
+owner = nobody
+version = 8.0.4
+modtime = 1600191609.258057000
+
+[identities/idt_ippm_pp]
+access = read : [ admin, cdoi_admin ], write : [ admin, cdoi_admin ]
+export = system
+owner = nobody
+version = 8.0.4
+modtime = 1606496610.965962000
+
+[db_connections/cnx_ippm_pp]
+access = read : [ admin, cdoi_admin ], write : [ admin, cdoi_admin ]
+export = system
+owner = nobody
+version = 8.0.4
+modtime = 1606496599.561962000
+
+[db_connections/cnx_chumtest_pp]
+access = read : [ admin, cdoi_admin ], write : [ admin, cdoi_admin ]
+export = system
+owner = nobody
+version = 8.0.4
+modtime = 1600193325.193882000
+
+[db_connections/cnx_chum_pp]
+access = read : [ admin, cdoi_admin ], write : [ admin, cdoi_admin ]
+export = system
+owner = nobody
+version = 8.0.4
+modtime = 1600193308.505430000
+
+[props/srctyp_bdEaiAcq_CdoiStatistique_Acq_001]
+version = 8.0.4
+modtime = 1593110210.323760000
+
+[app/package/check_for_updates]
+version = 8.0.4
+modtime = 1593517727.716941000
+
+[props/enovacom%3Alog4j%3Aserver]
+version = 8.0.4
+modtime = 1593091698.777691000
+
+[db_inputs/inpt_chumtest_pp_eai_acq_stat_acq]
+access = read : [ admin, db_connect_admin, db_connect_user ], write : [ admin, db_connect_admin ]
+export = system
+owner = nobody
+version = 8.0.4
+modtime = 1593173095.018915000
+
+[db_inputs/inpt_chumtest_pp_eai_acq_stat_ai]
+access = read : [ admin, db_connect_admin, db_connect_user ], write : [ admin, db_connect_admin ]
+export = system
+owner = nobody
+version = 8.0.4
+modtime = 1593173100.765076000
+
+[db_inputs/inpt_chumtest_pp_eai_acq_stat_alim]
+access = read : [ admin, db_connect_admin, db_connect_user ], write : [ admin, db_connect_admin ]
+export = system
+owner = nobody
+version = 8.0.4
+modtime = 1593173106.824000000
+
+[db_inputs/inpt_chumtest_pp_eai_i1_stat_acq]
+access = read : [ admin, db_connect_admin, db_connect_user ], write : [ admin, db_connect_admin ]
+export = system
+owner = nobody
+version = 8.0.4
+modtime = 1593173112.579004000
+
+[db_inputs/inpt_chumtest_pp_eai_i1_stat_ai]
+access = read : [ admin, db_connect_admin, db_connect_user ], write : [ admin, db_connect_admin ]
+export = system
+owner = nobody
+version = 8.0.4
+modtime = 1593173118.028067000
+
+[db_inputs/inpt_chumtest_pp_eai_i1_stat_alim]
+access = read : [ admin, db_connect_admin, db_connect_user ], write : [ admin, db_connect_admin ]
+export = system
+owner = nobody
+version = 8.0.4
+modtime = 1593173123.991563000
+
+[db_inputs/inpt_chumtest_pp_eai_i2_stat_acq]
+access = read : [ admin, db_connect_admin, db_connect_user ], write : [ admin, db_connect_admin ]
+export = system
+owner = nobody
+version = 8.0.4
+modtime = 1593173130.535555000
+
+[db_inputs/inpt_chumtest_pp_eai_i2_stat_ai]
+access = read : [ admin, db_connect_admin, db_connect_user ], write : [ admin, db_connect_admin ]
+export = system
+owner = nobody
+version = 8.0.4
+modtime = 1593173136.302482000
+
+[db_inputs/inpt_chumtest_pp_eai_i2_stat_alim]
+access = read : [ admin, db_connect_admin, db_connect_user ], write : [ admin, db_connect_admin ]
+export = system
+owner = nobody
+version = 8.0.4
+modtime = 1593173143.670714000
+
+[db_inputs/inpt_chum_pp_eai_acq_stat_acq]
+version = 8.0.4
+modtime = 1593173088.343705000
+
+[db_inputs/inpt_chum_pp_eai_acq_stat_ai]
+access = read : [ admin, db_connect_admin, db_connect_user ], write : [ admin, db_connect_admin ]
+export = system
+owner = nobody
+version = 8.0.4
+modtime = 1593171757.782829000
+
+[db_inputs/inp_chumtest_pp_eai_acq_stat_acq]
+access = read : [ admin ], write : [ admin ]
+export = system
+owner = nobody
+version = 8.0.4
+modtime = 1608079579.181327000
+
+[db_inputs/inp_chumtest_pp_eai_acq_stat_ai]
+access = read : [ admin ], write : [ admin ]
+export = system
+owner = nobody
+version = 8.0.4
+modtime = 1608079578.983480000
+
+[db_inputs/inp_chumtest_pp_eai_acq_stat_alim]
+access = read : [ admin ], write : [ admin ]
+export = system
+owner = nobody
+version = 8.0.4
+modtime = 1608079579.084224000
+
+[db_inputs/inp_chumtest_pp_eai_i1_stat_acq]
+access = read : [ admin ], write : [ admin ]
+export = system
+owner = nobody
+version = 8.0.4
+modtime = 1608079577.480351000
+
+[db_inputs/inp_chumtest_pp_eai_i1_stat_ai]
+access = read : [ admin ], write : [ admin ]
+export = system
+owner = nobody
+version = 8.0.4
+modtime = 1608079578.282368000
+
+[db_inputs/inp_chumtest_pp_eai_i1_stat_alim]
+access = read : [ admin ], write : [ admin ]
+export = system
+owner = nobody
+version = 8.0.4
+modtime = 1608079577.785356000
+
+[db_inputs/inp_chumtest_pp_eai_i2_stat_acq]
+access = read : [ admin ], write : [ admin ]
+export = system
+owner = nobody
+version = 8.0.4
+modtime = 1608079577.886860000
+
+[db_inputs/inp_chumtest_pp_eai_i2_stat_ai]
+access = read : [ admin ], write : [ admin ]
+export = system
+owner = nobody
+version = 8.0.4
+modtime = 1608079577.685436000
+
+[db_inputs/inp_chumtest_pp_eai_i2_stat_alim]
+access = read : [ admin ], write : [ admin ]
+export = system
+owner = nobody
+version = 8.0.4
+modtime = 1608079577.570516000
+
+[db_inputs/inp_chum_pp_eai_acq_stat_acq]
+access = read : [ admin ], write : [ admin ]
+export = system
+owner = nobody
+version = 8.0.4
+modtime = 1608079559.980342000
+
+[db_inputs/inp_chum_pp_eai_acq_stat_ai]
+access = read : [ admin ], write : [ admin ]
+export = system
+owner = nobody
+version = 8.0.4
+modtime = 1608079579.886135000
+
+[db_inputs/inp_chum_pp_eai_acq_stat_alim]
+access = read : [ admin ], write : [ admin ]
+export = system
+owner = nobody
+version = 8.0.4
+modtime = 1608079579.782308000
+
+[db_inputs/inp_chum_pp_eai_i1_stat_acq]
+access = read : [ admin ], write : [ admin ]
+export = system
+owner = nobody
+version = 8.0.4
+modtime = 1608079579.681497000
+
+[db_inputs/inp_chum_pp_eai_i1_stat_ai]
+access = read : [ admin ], write : [ admin ]
+export = system
+owner = nobody
+version = 8.0.4
+modtime = 1608079577.377610000
+
+[db_inputs/inp_chum_pp_eai_i1_stat_alim]
+access = read : [ admin ], write : [ admin ]
+export = system
+owner = nobody
+version = 8.0.4
+modtime = 1608079579.568063000
+
+[db_inputs/inp_chum_pp_eai_i2_stat_acq]
+access = read : [ admin ], write : [ admin ]
+export = system
+owner = nobody
+version = 8.0.4
+modtime = 1608079579.476401000
+
+[db_inputs/inp_chum_pp_eai_i2_stat_ai]
+access = read : [ admin ], write : [ admin ]
+export = system
+owner = nobody
+version = 8.0.4
+modtime = 1608079579.383068000
+
+[db_inputs/inp_chum_pp_eai_i2_stat_alim]
+access = read : [ admin ], write : [ admin ]
+export = system
+owner = nobody
+version = 8.0.4
+modtime = 1608079579.283793000
+
+[db_inputs/inp_ippm_pp_eai_acq_stat_acq]
+access = read : [ admin, db_connect_admin, db_connect_user ], write : [ admin, db_connect_admin ]
+export = system
+owner = nobody
+version = 8.0.4
+modtime = 1606496575.159864000
+
+[db_inputs/inp_ippm_pp_eai_acq_stat_ai]
+access = read : [ admin, db_connect_admin, db_connect_user ], write : [ admin, db_connect_admin ]
+export = system
+owner = nobody
+version = 8.0.4
+modtime = 1606496578.284190000
+
+[db_inputs/inp_ippm_pp_eai_acq_stat_alim]
+access = read : [ admin, db_connect_admin, db_connect_user ], write : [ admin, db_connect_admin ]
+export = system
+owner = nobody
+version = 8.0.4
+modtime = 1606496580.894470000
+
+[identities/idt_chum_pr]
+access = read : [ admin, cdoi_admin ], write : [ admin, cdoi_admin ]
+export = system
+owner = alex.lozano
+version = 8.0.4
+modtime = 1600191594.968580000
+
+[identities/idt_chudeqc_pp]
+access = read : [ admin, cdoi_admin, db_connect_admin, db_connect_user ], write : [ admin, cdoi_admin, db_connect_admin ]
+export = system
+owner = alex.lozano
+version = 8.0.4
+modtime = 1600191566.407266000
+
+[db_connections/cnx_chum_pr]
+access = read : [ admin, cdoi_admin ], write : [ admin, cdoi_admin ]
+export = system
+owner = alex.lozano
+version = 8.0.4
+modtime = 1600193316.666298000
+
+[db_connections/cnx_chudeqc_pp]
+access = read : [ admin, cdoi_admin ], write : [ admin, cdoi_admin ]
+export = system
+owner = alex.lozano
+version = 8.0.4
+modtime = 1600193298.963652000
+
+[db_inputs/inp_chudeqc_pp_eai_acq_stat_ai]
+access = read : [ admin, cdoi_admin ], write : [ admin, cdoi_admin ]
+export = system
+owner = nobody
+version = 8.0.4
+modtime = 1608079560.783046000
+
+[db_inputs/inp_chudeqc_pp_eai_i1_stat_acq]
+access = read : [ admin, cdoi_admin ], write : [ admin, cdoi_admin ]
+export = system
+owner = nobody
+version = 8.0.4
+modtime = 1608079560.568458000
+
+[db_inputs/inp_chudeqc_pp_eai_acq_stat_alim]
+access = read : [ admin, cdoi_admin ], write : [ admin, cdoi_admin ]
+export = system
+owner = nobody
+version = 8.0.4
+modtime = 1608079560.680702000
+
+[db_inputs/inp_chudeqc_pp_eai_acq_stat_acq]
+access = read : [ admin, cdoi_admin ], write : [ admin, cdoi_admin ]
+export = system
+owner = nobody
+version = 8.0.4
+modtime = 1608079560.877009000
+
+[db_inputs/inp_chudeqc_pp_eai_i1_stat_ai]
+access = read : [ admin, cdoi_admin ], write : [ admin, cdoi_admin ]
+export = system
+owner = nobody
+version = 8.0.4
+modtime = 1608079560.469747000
+
+[db_inputs/inp_chudeqc_pp_eai_i2_stat_acq]
+access = read : [ admin, cdoi_admin ], write : [ admin, cdoi_admin ]
+export = system
+owner = nobody
+version = 8.0.4
+modtime = 1608079560.383147000
+
+[db_inputs/inp_chudeqc_pp_eai_i2_stat_ai]
+access = read : [ admin, cdoi_admin ], write : [ admin, cdoi_admin ]
+export = system
+owner = nobody
+version = 8.0.4
+modtime = 1608079560.174298000
+
+[db_inputs/inp_chudeqc_pp_eai_i1_stat_alim]
+access = read : [ admin, cdoi_admin ], write : [ admin, cdoi_admin ]
+export = system
+owner = nobody
+version = 8.0.4
+modtime = 1608079560.277979000
+
+[db_inputs/inp_chudeqc_pp_eai_i2_stat_alim]
+access = read : [ admin, cdoi_admin ], write : [ admin, cdoi_admin ]
+export = system
+owner = nobody
+version = 8.0.4
+modtime = 1608079560.079922000
+
+[identities/idt_cissslav_pp]
+access = read : [ admin, cdoi_admin ], write : [ admin, cdoi_admin ]
+export = system
+owner = alex.lozano
+version = 8.0.4
+modtime = 1600195478.475771000
+
+[db_connections/cnx_cissslav_pp]
+access = read : [ admin ], write : [ admin ]
+export = system
+owner = alex.lozano
+version = 8.0.4
+modtime = 1600195940.658870000
+
+[db_inputs/inp_cissslav_pp_eai_i1_stat_ai]
+access = read : [ admin, cdoi_admin ], write : [ admin, cdoi_admin ]
+export = system
+owner = nobody
+version = 8.0.4
+modtime = 1608079578.075755000
+
+[db_inputs/inp_cissslav_pp_eai_i2_stat_ai]
+access = read : [ admin, cdoi_admin ], write : [ admin, cdoi_admin ]
+export = system
+owner = nobody
+version = 8.0.4
+modtime = 1608079578.388505000
+
+[db_inputs/inp_cissslav_pp_eai_i2_stat_alim]
+access = read : [ admin, cdoi_admin ], write : [ admin, cdoi_admin ]
+export = system
+owner = nobody
+version = 8.0.4
+modtime = 1608079578.181212000
+
+[db_inputs/inp_cissslav_pp_eai_i1_stat_alim]
+access = read : [ admin, cdoi_admin ], write : [ admin, cdoi_admin ]
+export = system
+owner = nobody
+version = 8.0.4
+modtime = 1608079578.682056000
+
+[db_inputs/inp_cissslav_pp_eai_acq_stat_alim]
+access = read : [ admin, cdoi_admin ], write : [ admin, cdoi_admin ]
+export = system
+owner = nobody
+version = 8.0.4
+modtime = 1608079578.483928000
+
+[db_inputs/inp_cissslav_pp_eai_acq_stat_acq]
+access = read : [ admin, cdoi_admin ], write : [ admin, cdoi_admin ]
+export = system
+owner = nobody
+version = 8.0.4
+modtime = 1608079578.882598000
+
+[db_inputs/inp_cissslav_pp_eai_acq_stat_ai]
+access = read : [ admin, cdoi_admin ], write : [ admin, cdoi_admin ]
+export = system
+owner = nobody
+version = 8.0.4
+modtime = 1608079578.787184000
+
+[db_inputs/inp_cissslav_pp_eai_i1_stat_acq]
+access = read : [ admin, cdoi_admin ], write : [ admin, cdoi_admin ]
+export = system
+owner = nobody
+version = 8.0.4
+modtime = 1608079578.575392000
+
+[db_inputs/inp_cissslav_pp_eai_i2_stat_acq]
+access = read : [ admin, cdoi_admin ], write : [ admin, cdoi_admin ]
+export = system
+owner = nobody
+version = 8.0.4
+modtime = 1608079577.983121000
+
+[props/enovacom%3Aaudit/REPORT-Extract_XML_attributes]
+access = read : [ admin, cdoi_admin, master_integr, master_suivi ], write : [ admin, cdoi_admin ]
+owner = nobody
+version = 8.0.4
+modtime = 1601306486.820763000
+
+[props/enovacom%3Aaudit/REPORT-Extract_XML_tagnames]
+access = read : [ admin, cdoi_admin, master_integr, master_suivi ], write : [ admin, cdoi_admin ]
+owner = nobody
+version = 8.0.4
+modtime = 1601306502.988885000
+
+[props/enovacom%3Aemetteur/EXTRACT-archiveIdMessage]
+access = read : [ admin, cdoi_admin, master_integr, master_suivi ], write : [ admin, cdoi_admin ]
+owner = nobody
+version = 8.0.4
+modtime = 1601306527.866865000
+
+[props/enovacom%3Aemetteur/EXTRACT-evenement]
+access = read : [ admin, cdoi_admin, master_integr, master_suivi ], write : [ admin, cdoi_admin ]
+owner = nobody
+version = 8.0.4
+modtime = 1601306547.018846000
+
+[props/enovacom%3Aemetteur/EXTRACT-msgCtrlId]
+access = read : [ admin, cdoi_admin, master_integr, master_suivi ], write : [ admin, cdoi_admin ]
+owner = nobody
+version = 8.0.4
+modtime = 1601306565.089926000
+
+[props/enovacom%3Aemetteur/EXTRACT-msgEventCode]
+access = read : [ admin, cdoi_admin, master_integr, master_suivi ], write : [ admin, cdoi_admin ]
+owner = nobody
+version = 8.0.4
+modtime = 1601306584.375862000
+
+[props/enovacom%3Aemetteur/EXTRACT-msgEventType]
+access = read : [ admin, cdoi_admin, master_integr, master_suivi ], write : [ admin, cdoi_admin ]
+owner = nobody
+version = 8.0.4
+modtime = 1601306609.807640000
+
+[props/enovacom%3Aemetteur/EXTRACT-nodossier]
+access = read : [ admin, cdoi_admin, master_integr, master_suivi ], write : [ admin, cdoi_admin ]
+owner = nobody
+version = 8.0.4
+modtime = 1601306816.219085000
+
+[props/enovacom%3Aemetteur/EXTRACT-nom]
+access = read : [ admin, cdoi_admin, master_integr, master_suivi ], write : [ admin, cdoi_admin ]
+owner = nobody
+version = 8.0.4
+modtime = 1601306866.559251000
+
+[props/enovacom%3Aemetteur/EXTRACT-objectid]
+access = read : [ admin, cdoi_admin, master_integr, master_suivi ], write : [ admin, cdoi_admin ]
+owner = nobody
+version = 8.0.4
+modtime = 1601306879.326293000
+
+[props/enovacom%3Aemetteur/EXTRACT-objetMetier]
+access = read : [ admin, cdoi_admin, master_integr, master_suivi ], write : [ admin, cdoi_admin ]
+owner = nobody
+version = 8.0.4
+modtime = 1601306892.307734000
+
+[props/enovacom%3Aemetteur/EXTRACT-patient]
+access = read : [ admin, cdoi_admin, master_integr, master_suivi ], write : [ admin, cdoi_admin ]
+owner = nobody
+version = 8.0.4
+modtime = 1601306903.438288000
+
+[props/enovacom%3Aemetteur/EXTRACT-perso]
+access = read : [ admin, cdoi_admin, master_integr, master_suivi ], write : [ admin, cdoi_admin ]
+owner = nobody
+version = 8.0.4
+modtime = 1601306918.300431000
+
+[props/enovacom%3Aemetteur/EXTRACT-prenom]
+access = read : [ admin, cdoi_admin, master_integr, master_suivi ], write : [ admin, cdoi_admin ]
+owner = nobody
+version = 8.0.4
+modtime = 1601306933.054435000
+
+[props/enovacom%3Aemetteur/EXTRACT-service]
+access = read : [ admin, cdoi_admin, master_integr, master_suivi ], write : [ admin, cdoi_admin ]
+owner = nobody
+version = 8.0.4
+modtime = 1601306946.789001000
+
+[props/enovacom%3Aemetteur/EXTRACT-siEmetteur]
+access = read : [ admin, cdoi_admin, master_integr, master_suivi ], write : [ admin, cdoi_admin ]
+owner = nobody
+version = 8.0.4
+modtime = 1601306960.053651000
+
+[props/enovacom%3Aemetteur/EXTRACT-visite]
+access = read : [ admin, cdoi_admin, master_integr, master_suivi ], write : [ admin, cdoi_admin ]
+owner = nobody
+version = 8.0.4
+modtime = 1601306973.125507000
+
+[props/enovacom%3Alog4j%3Aboot/EXTRACT-log_level%2Cclassname%2Cmessage]
+access = read : [ admin, cdoi_admin, master_integr, master_suivi ], write : [ admin, cdoi_admin ]
+owner = nobody
+version = 8.0.4
+modtime = 1601306994.998287000
+
+[props/enovacom%3Alog4j%3Aeai/EXTRACT-log_level%2Cclassname%2Cmessage]
+access = read : [ admin, cdoi_admin, master_integr, master_suivi ], write : [ admin, cdoi_admin ]
+owner = nobody
+version = 8.0.4
+modtime = 1601307012.672297000
+
+[props/enovacom%3Alog4j%3Aserver/EXTRACT-log_level%2Cclassname%2Cmessage]
+access = read : [ admin, cdoi_admin, master_integr, master_suivi ], write : [ admin, cdoi_admin ]
+owner = nobody
+version = 8.0.4
+modtime = 1601307029.593234000
+
+[props/enovacom%3Alog4j%3Awrapper/EXTRACT-log_level%2Cjvm%2Cmessage]
+access = read : [ admin, cdoi_admin, master_integr, master_suivi ], write : [ admin, cdoi_admin ]
+owner = nobody
+version = 8.0.4
+modtime = 1601307045.249874000
+
+[props/enovacom%3Arecepteur/EXTRACT-archivIdMsg]
+access = read : [ admin, cdoi_admin, master_integr, master_suivi ], write : [ admin, cdoi_admin ]
+owner = nobody
+version = 8.0.4
+modtime = 1601307061.884481000
+
+[props/enovacom%3Arecepteur/EXTRACT-base64]
+access = read : [ admin, cdoi_admin, master_integr, master_suivi ], write : [ admin, cdoi_admin ]
+owner = nobody
+version = 8.0.4
+modtime = 1601307074.936177000
+
+[props/enovacom%3Arecepteur/EXTRACT-code]
+access = read : [ admin, cdoi_admin, master_integr, master_suivi ], write : [ admin, cdoi_admin ]
+owner = nobody
+version = 8.0.4
+modtime = 1601307096.815267000
+
+[props/enovacom%3Arecepteur/EXTRACT-scenario]
+access = read : [ admin, cdoi_admin, master_integr, master_suivi ], write : [ admin, cdoi_admin ]
+owner = nobody
+version = 8.0.4
+modtime = 1601307108.868476000
+
+[props/enovacom%3Arecepteur/REPORT-condition]
+access = read : [ admin, cdoi_admin, master_integr, master_suivi ], write : [ admin, cdoi_admin ]
+owner = nobody
+version = 8.0.4
+modtime = 1601307120.975838000
+
+[props/enovacom%3Aroute/EXTRACT-archivIdMsg]
+access = read : [ admin, cdoi_admin, master_integr, master_suivi ], write : [ admin, cdoi_admin ]
+owner = nobody
+version = 8.0.4
+modtime = 1601307152.798088000
+
+[props/enovacom%3Aroute/EXTRACT-base64]
+access = read : [ admin, cdoi_admin, master_integr, master_suivi ], write : [ admin, cdoi_admin ]
+owner = nobody
+version = 8.0.4
+modtime = 1601307164.795496000
+
+[props/enovacom%3Aroute/EXTRACT-code]
+access = read : [ admin, cdoi_admin, master_integr, master_suivi ], write : [ admin, cdoi_admin ]
+owner = nobody
+version = 8.0.4
+modtime = 1601307176.570685000
+
+[props/enovacom%3Aroute/REPORT-condition]
+access = read : [ admin, cdoi_admin, master_integr, master_suivi ], write : [ admin, cdoi_admin ]
+owner = nobody
+version = 8.0.4
+modtime = 1601307198.027393000
+
+[props/enovacom%3Aroute/REPORT-scenario]
+access = read : [ admin, cdoi_admin, master_integr, master_suivi ], write : [ admin, cdoi_admin ]
+owner = nobody
+version = 8.0.4
+modtime = 1601307209.136166000
+
+[transforms/scenario]
+access = read : [ admin, cdoi_admin, master_integr, master_suivi ], write : [ admin, cdoi_admin ]
+export = system
+owner = nobody
+version = 8.0.4
+modtime = 1601307221.311122000
+
+[transforms/condition]
+access = read : [ admin, cdoi_admin, master_integr, master_suivi ], write : [ admin, cdoi_admin ]
+export = system
+owner = nobody
+version = 8.0.4
+modtime = 1601307236.308810000
+
+[nav/default]
+access = read : [ admin, cdoi_admin, master_integr, master_suivi ], write : [ admin, cdoi_admin ]
+export = system
+owner = nobody
+version = 8.0.4
+modtime = 1601307258.764844000
+
+[identities/idt_cisssbsl_pp]
+version = 8.0.4
+modtime = 1606502513.882953000
