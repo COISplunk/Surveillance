@@ -55,3 +55,59 @@ Instructions spécifiques à cette version:
 - En plus de certains nouveaux environnements susmentionnés, cette version a comme but de faire l'installation de la config de tous les autres sites, sauf certains items tels que les connexions BD par exemple.  Ces éléments "absents" viendront dans une prochaine livraison selon l'ordre de déploiement des différents sites.
 
 
+INSTRUCTIONS (README)
+
+Instructions génériques:
+
+- Dans ce tarball on retrouve 2 applications:
+     - "Survai"
+     - "COI_AI_Config"
+- Notre application principale à installer se nomme "Surv-AI". Le nom du répertoire est "Survai".
+- L'application secondaire à installer se nomme "COI AI Config". Le nom du répertoire est "COI_AI_Config".
+- L'idée ici d'avoir deux applications est la suivante: l'application principale que les utilisateurs verront est "Survai". L'application secondaire a simplement pour but de conser
+ver la config qui est commune à un seul endroit.
+- Tous les fichiers de configuration se retrouvent dans les répertoires et sous répertoires de "Survai", sauf:
+     - Les fichers inputs.conf pour les forwarders.
+     - Les fichiers "db_connections.conf", "db_inputs.conf", "identities.conf", "indexes.conf", "props.conf" et "transforms.conf".
+     - Le fichier "authorize.conf".
+- Le présent tarball contient tous les fichiers de notre application, en deux répertoires principaux; "Survai" et "COI_AI_Config".
+- Les fichiers comme les "js", "css", "png", "csv", "xml", "conf", etc. qui pouvaient être sous notre application, donc sous le répertoire "Survai", le sont.
+- Les fichiers "externes" à notre application "Survai", donc à l'extérieur du répertoire "Survai", se retrouvent à deux endroits; dans le répertoire "COI_AI_Config" et dans le répe
+rtoire "Survai/fichiersExt".
+- Les fichiers "inputs.conf" se trouve dans le répertoire "Survai/fichiersExt/Inputs_*_*":
+    - "Inputs_CHUdeQC_PP/inputs.conf" pour les inputs des forwarders pour CHU de Qc PREPROD.
+    - "Inputs_CHUM_PP/inputs.conf" pour les inputs des forwarders pour CHUM PREPROD.
+    - "Inputs_CHUM_Prod/inputs.conf" pour les inputs des forwarders pour CHUM PROD.
+    - "Inputs_CHUMTEST_PP/inputs.conf" pour les inputs des forwarders pour CHUMTEST PREPROD.
+    - "Inputs_Laval_PP/inputs.conf" pour les inputs des forwarders pour LAVAL PREPROD.
+- Le fichier pour les rôles se trouve dans le répertoire "Survai/fichiersExt":
+     - "authorize.conf" est le fichier contenant nos rôles. Il est placé ici car normalement on le retrouve sous "/opt/splunk/etc/system/local".
+- Le fichier pour l'application par défaut pour certains rôles se trouve dans le répertoire "Survai/fichiersExt":
+     - "user-prefs.conf" est le fichier contenant l'application par défaut. Il est placé ici car normalement on le retrouve sous "/opt/splunk/etc/apps/user-prefs/local".
+- Pour faciliter notre travail et permettre de centraliser certaines configurations, nous avons créé une app secondaire qui s'appelle "COI_AI_Config". Dans cette app on centralise
+les indexes, les connecxions, les identitées, les props et les transforms. Alors dans le présent tarball on retrouve cette app sous le nom "COI_AI_Config". Les fichiers énumérés ci
+-dessous ne doivent donc pas se retrouver dans "Survai":
+     - "indexes.conf" pour la définition de nos indexes.
+     - "props.conf" pour la définition de nos props.
+     - "transforms.conf" pour la définition de nos transformations.
+     - "db_connections.conf" pour définir nos connecxions utilisées avec DB_Connect.
+     - "identities.conf" pour définir nos paramètres de connexion à la BD dans DB_Connect.
+     - "db_inputs.conf" pour définir tous les inputs (queries) dans DB_Connect.
+- En plus de nos deux applications livrée ici ("Surv-AI" et "COI_AI_Config"), nous avons besoin que les applications suivantes soient installées:
+     - DB Connect
+     - Lookup Editor
+     - base64 (https://splunkbase.splunk.com/app/1922/)
+
+
+Instructions spécifiques à cette version:
+
+- La présente version de Survai porte le numéro de version 1.3.0.
+- Cette version a pour but d'installer en PROD les environnements suivants:
+    - CHUM Préprod (déjà présent)
+    - CHUM Prod (nouveau)
+    - CHUMTEST Préprod (déjà présent)
+    - CHUdeQC Préprod (nouveau)
+    - LAVAL Préprod (nouveau)
+- En plus de certains nouveaux environnements susmentionnés, cette version a comme but de faire l'installation de la config de tous les autres sites, sauf certains items tels que les connexions BD par exemple.  Ces éléments "absents" viendront dans une prochaine livraison selon l'ordre de déploiement des différents sites.
+
+
